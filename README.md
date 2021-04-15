@@ -1,4 +1,4 @@
-# deploy-kubeflow-on-gcp
+# GCP에서 Minikube를 활용한 단일노드 Kubeflow 배포
 
 
 시험기간이라 바빠서 추후 정리할 예정입니다.
