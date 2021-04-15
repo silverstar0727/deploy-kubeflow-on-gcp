@@ -41,7 +41,7 @@ sudo chmod +x /usr/local/bin/docker-compose
 
 9. kubectl을 설치해주세요
 ~~~
-
+./kubectl.sh
 ~~~
 
 10. kubeflow를 설치해주세요
