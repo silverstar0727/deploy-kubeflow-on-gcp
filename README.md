@@ -61,7 +61,8 @@ kubectl get pods -n kubeflow
 ./ip.sh
 ~~~
 
-13. VM의 외부 ip에 31380포트를 연결해주세요
+13. VM의 외부 ip에 31380포트로 접속해주세요.
+주소 예) xx.xx.xx:31380
 
 
-# 끝!
+# kubeflow dashboard가 정상적으로 나오면 끝!
