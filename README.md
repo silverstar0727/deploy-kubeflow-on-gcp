@@ -15,7 +15,7 @@
 4. 아래 명령어를 통해 해당 레포를 클론 후 디렉토리를 변경해주세요
 ~~~sh
 git clone https://github.com/silverstar0727/deploy-kubeflow-on-gcp.git
-cd deploy-kubeflow-on-gcp.git
+cd deploy-kubeflow-on-gcp
 ~~~
 
 5. 모든 쉘 스크립트 파일을 실행 가능하도록 설정해주세요
