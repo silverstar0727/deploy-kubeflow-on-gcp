@@ -19,7 +19,7 @@ cd deploy-kubeflow-on-gcp
 ~~~
 
 5. 모든 쉘 스크립트 파일을 실행 가능하도록 설정해주세요
-~~~
+~~~sh
 chmod +x docker.sh
 chmod +x kubectl.sh
 chmod +x kubeflow.sh
@@ -27,12 +27,12 @@ chmod +x ip.sh
 ~~~
 
 6. docker를 설치해주세요
-~~~
+~~~sh
 ./docker.sh
 ~~~
 
 7. docker compose를 설치해주세요
-~~~
+~~~sh
 sudo curl -L "https://github.com/docker/compose/releases/download/1.29.0/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
 sudo chmod +x /usr/local/bin/docker-compose
 ~~~
@@ -40,28 +40,28 @@ sudo chmod +x /usr/local/bin/docker-compose
 8. exit 명령어를 통해 명령어 창을 끈 후 다시 ssh접속을 해주세요
 
 9. kubectl을 설치해주세요
-~~~
+~~~sh
 ./kubectl.sh
 ~~~
 
 10. kubeflow를 설치해주세요
-~~~
+~~~sh
 ./kubeflow.sh
 ~~~
 
-위 명령어를 한 번 더 입력해주시면 됩니다.
+11. 위 명령어를 한 번 더 입력해주시면 됩니다.
 
-11. 다음의 명령어를 통해 모든 pods가 Running 상태일때까지 12분 가량 기다려주세요
-~~~
+12. 다음의 명령어를 통해 모든 pods가 Running 상태일때까지 12분 가량 기다려주세요
+~~~sh
 kubectl get pods -n kubeflow
 ~~~
 
-12. ip를 확인해주세요
-~~~
+13. ip를 확인해주세요
+~~~sh
 ./ip.sh
 ~~~
 
-13. VM의 외부 ip에 31380포트로 접속해주세요.
+14. VM의 외부 ip에 31380포트로 접속해주세요.
 주소 예) xx.xx.xx:31380
 
 
